@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="296be71fdb322010946b64d7489619b9" sys_domain="global" table="x_585354_sru_student_information" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-15 15:42:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>256b2b1fdb322010946b64d748961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_585354_sru_student_information" name="x_585354_sru_student_information" sys_domain="global" view="Default view">296be71fdb322010946b64d7489619b9</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_585354_sru_student_information" sys_domain="global" view="Default view">1e59679bdb322010946b64d7489619cb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-15 15:42:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-15 15:42:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>216b2b1fdb322010946b64d748961946</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_585354_sru_student_information" name="x_585354_sru_student_information" sys_domain="global" view="Default view">296be71fdb322010946b64d7489619b9</sys_ui_form>
+            <sys_ui_section caption="Address For Communication" display_value="Address For Communication" name="x_585354_sru_student_information" sys_domain="global" view="Default view">e56be71fdb322010946b64d7489619b8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-15 15:42:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-15 15:42:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>758bab1fdb322010946b64d74896190c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_585354_sru_student_information" name="x_585354_sru_student_information" sys_domain="global" view="Default view">296be71fdb322010946b64d7489619b9</sys_ui_form>
+            <sys_ui_section caption="Up Load Photo" display_value="Up Load Photo" name="x_585354_sru_student_information" sys_domain="global" view="Default view">b58bab1fdb322010946b64d748961909</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-15 15:42:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_585354_sru_student_information</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-15 15:42:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>296be71fdb322010946b64d7489619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_585354_sru_student_information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SRU" source="x_585354_sru">3da8a39bdb322010946b64d748961961</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SRU">3da8a39bdb322010946b64d748961961</sys_scope>
+            <sys_update_name>sys_ui_form_sections_296be71fdb322010946b64d7489619b9</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-15 15:42:09</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
