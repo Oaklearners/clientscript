@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="faculty leave" max_length="40" name="x_585354_sru_faculty_leave" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Department" max_length="40" name="department" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CSE" sequence="0" value="cse"/>
+                <element inactive_on_update="false" label="IT" sequence="1" value="it"/>
+                <element inactive_on_update="false" label="ECE" sequence="2" value="ece"/>
+                <element inactive_on_update="false" label="MECH" sequence="3" value="mech"/>
+                <element inactive_on_update="false" label="CIVIL" sequence="4" value="civil"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Faculty Designation" max_length="40" name="faculty_designation" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Asst Prof" sequence="0" value="asst prof"/>
+                <element inactive_on_update="false" label="Assoc Prof" sequence="1" value="assoc prof"/>
+                <element inactive_on_update="false" label="Professor" sequence="2" value="professor"/>
+                <element inactive_on_update="false" label="Head of Department" sequence="3" value="head of department"/>
+            </choice>
+        </element>
+        <element label="From Date" max_length="40" name="from_date" type="glide_date"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="No of Days" max_length="40" name="no_of_days" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Redirect Request To" max_length="32" name="redirect_request_to" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="pending" label="Status" max_length="40" name="status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="HOD APPROVED" sequence="1" value="hod approved"/>
+                <element inactive_on_update="false" label="PRINCIPAL APPROVED" sequence="2" value="principal approved"/>
+            </choice>
+        </element>
+        <element label="To Date" max_length="40" name="to_date" type="glide_date"/>
+        <index name="index">
+            <element name="redirect_request_to"/>
+        </index>
+    </element>
+</database>

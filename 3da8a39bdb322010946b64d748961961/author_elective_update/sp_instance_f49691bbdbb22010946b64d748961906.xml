@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">30f4957bdbb22010946b64d748961987</sp_column>
+        <sp_widget display_value="Login">6506d341cb33020000f8d856634c9cdc</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-16 18:08:53</sys_created_on>
+        <sys_id>f49691bbdbb22010946b64d748961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SRU" source="x_585354_sru">3da8a39bdb322010946b64d748961961</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SRU">3da8a39bdb322010946b64d748961961</sys_scope>
+        <sys_update_name>sp_instance_f49691bbdbb22010946b64d748961906</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 18:08:53</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=f49691bbdbb22010946b64d748961906"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SRU">3da8a39bdb322010946b64d748961961</application>
+        <file_path/>
+        <instance_id>622a81dddb1bd3407d8cf22ebf961930</instance_id>
+        <instance_name>dev64592</instance_name>
+        <name>sp_instance_f49691bbdbb22010946b64d748961906</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">30f4957bdbb22010946b64d748961987</sp_column><sp_widget display_value="Login">6506d341cb33020000f8d856634c9cdc</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-16 18:08:53</sys_created_on><sys_id>f49691bbdbb22010946b64d748961906</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="SRU" source="x_585354_sru">3da8a39bdb322010946b64d748961961</sys_package><sys_policy/><sys_scope display_value="SRU">3da8a39bdb322010946b64d748961961</sys_scope><sys_update_name>sp_instance_f49691bbdbb22010946b64d748961906</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-16 18:08:53</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=f49691bbdbb22010946b64d748961906"/></record_update>]]></payload>
+        <payload_hash>-1469858338</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>ad9d2f5fdb322010946b64d7489619e1</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-16 18:08:54</sys_created_on>
+        <sys_id>b49691bbdbb22010946b64d748961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1783c39f32e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 18:08:54</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>fc9691bbbcb22010e795b8b87e178407</update_guid>
+        <update_guid_history>fc9691bbbcb22010e795b8b87e178407:-1469858338</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">e6a611bbdbb22010946b64d7489619cf</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-16 18:09:17</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>02e002e62f264cc8828efeb7f8be0b90</sys_id>
+        <sys_metadata>f49691bbdbb22010946b64d748961906</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SRU" source="x_585354_sru">3da8a39bdb322010946b64d748961961</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SRU">3da8a39bdb322010946b64d748961961</sys_scope>
+        <sys_scope_delete display_value="">61ab6ad1b3d745b6949ff2c9dcce9b59</sys_scope_delete>
+        <sys_update_name>sp_instance_f49691bbdbb22010946b64d748961906</sys_update_name>
+        <sys_update_version display_value="sp_instance_f49691bbdbb22010946b64d748961906">b49691bbdbb22010946b64d748961908</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 18:09:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

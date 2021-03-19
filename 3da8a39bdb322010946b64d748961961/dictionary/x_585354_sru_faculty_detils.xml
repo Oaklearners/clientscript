@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Faculty Detils" max_length="40" name="x_585354_sru_faculty_detils" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Department" mandatory="true" max_length="40" name="department" type="string">
+            <choice>
+                <element inactive_on_update="false" label="CSE" sequence="0" value="cse"/>
+                <element inactive_on_update="false" label="ECE" sequence="1" value="ece"/>
+                <element inactive_on_update="false" label="EEE" sequence="2" value="eee"/>
+                <element inactive_on_update="false" label="MECH" sequence="3" value="mech"/>
+                <element inactive_on_update="false" label="CIVIL" sequence="4" value="civil"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Faculty Type" max_length="40" name="facultyid" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Teaching Assistant" sequence="0" value="teaching assistant"/>
+                <element inactive_on_update="false" label="ASST PROF" sequence="1" value="asst prof"/>
+                <element inactive_on_update="false" label="Associate Professor" sequence="2" value="associate professor"/>
+                <element inactive_on_update="false" label="Professor" sequence="3" value="professor"/>
+                <element inactive_on_update="false" label="Head Of The department" sequence="4" value="head of the department"/>
+            </choice>
+        </element>
+        <element label="Name of the faculty" max_length="40" name="name_of_the_faculty" type="string"/>
+    </element>
+</database>

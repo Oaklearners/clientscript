@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true,pdf_cell_type=image</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -33,7 +33,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="">user_image</internal_type>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_585354_sru_student_information</name>
         <next_element/>
@@ -54,14 +54,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-15 15:43:19</sys_created_on>
         <sys_id>029beb1fdb322010946b64d7489619c3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Upload Photo</sys_name>
         <sys_package display_value="SRU" source="x_585354_sru">3da8a39bdb322010946b64d748961961</sys_package>
         <sys_policy/>
         <sys_scope display_value="SRU">3da8a39bdb322010946b64d748961961</sys_scope>
         <sys_update_name>sys_dictionary_x_585354_sru_student_information_upload_photo</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-15 15:43:27</sys_updated_on>
+        <sys_updated_on>2021-03-15 16:12:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

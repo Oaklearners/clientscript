@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Bank Table" max_length="40" name="x_585354_sru_bank_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Aadhar Number" mandatory="true" max_length="40" name="aadhar_number" type="integer"/>
+        <element label="Acc No" mandatory="true" max_length="40" name="acc_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Amount" mandatory="true" max_length="40" name="amount" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="Are you accepr Details" max_length="40" name="areyouaccepdetails" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact Number" mandatory="true" max_length="40" name="contact_number" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" label="Door Number" max_length="40" name="door_number" type="string"/>
+        <element label="Email ID" mandatory="true" max_length="40" name="email_id" type="string"/>
+        <element label="Name of Ac Holder" mandatory="true" max_length="40" name="name_of_ac_holder" type="string"/>
+        <element label="Pan Card Number" max_length="10" name="pan_card_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type Of Account" mandatory="true" max_length="40" name="type_of_transaction" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Savings" sequence="0" value="savings"/>
+                <element inactive_on_update="false" label="Current" sequence="1" value="current"/>
+            </choice>
+        </element>
+    </element>
+</database>

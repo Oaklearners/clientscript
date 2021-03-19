@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Daily Transaction" max_length="40" name="x_585354_sru_daily_transaction" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="amount" max_length="40" name="amount" type="float"/>
+        <element label="From Ac Number" mandatory="true" max_length="40" name="from_ac_number" type="string"/>
+        <element label="To Ac Number" max_length="40" name="to_ac_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="transcation type" mandatory="true" max_length="40" name="transcation_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Withdraw" sequence="0" value="withdraw"/>
+                <element inactive_on_update="false" label="Deposit" sequence="1" value="deposit"/>
+                <element inactive_on_update="false" label="Account Transfer" sequence="2" value="account transfer"/>
+            </choice>
+        </element>
+    </element>
+</database>

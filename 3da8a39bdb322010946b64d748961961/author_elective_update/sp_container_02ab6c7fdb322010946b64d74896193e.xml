@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Faculty Table - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="faculty_table">06ab6c7fdb322010946b64d74896193b</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-16 15:01:23</sys_created_on>
+        <sys_id>02ab6c7fdb322010946b64d74896193e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Faculty Table - Container 1</sys_name>
+        <sys_package display_value="SRU" source="x_585354_sru">3da8a39bdb322010946b64d748961961</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SRU">3da8a39bdb322010946b64d748961961</sys_scope>
+        <sys_update_name>sp_container_02ab6c7fdb322010946b64d74896193e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 15:01:23</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SRU">3da8a39bdb322010946b64d748961961</application>
+        <file_path/>
+        <instance_id>622a81dddb1bd3407d8cf22ebf961930</instance_id>
+        <instance_name>dev64592</instance_name>
+        <name>sp_container_02ab6c7fdb322010946b64d74896193e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Faculty Table - Container 1</name><order>1</order><sp_page display_value="faculty_table">06ab6c7fdb322010946b64d74896193b</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-16 15:01:23</sys_created_on><sys_id>02ab6c7fdb322010946b64d74896193e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Faculty Table - Container 1</sys_name><sys_package display_value="SRU" source="x_585354_sru">3da8a39bdb322010946b64d748961961</sys_package><sys_policy/><sys_scope display_value="SRU">3da8a39bdb322010946b64d748961961</sys_scope><sys_update_name>sp_container_02ab6c7fdb322010946b64d74896193e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-16 15:01:23</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>913618238</payload_hash>
+        <record_name>Faculty Table - Container 1</record_name>
+        <reverted_from/>
+        <source>ad9d2f5fdb322010946b64d7489619e1</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-16 15:01:23</sys_created_on>
+        <sys_id>8eab6c7fdb322010946b64d74896193f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1783b8e47f60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 15:01:23</sys_updated_on>
+        <type>Container</type>
+        <update_guid>c6ab6c7f53322010c52a6e29d959353f</update_guid>
+        <update_guid_history>c6ab6c7f53322010c52a6e29d959353f:913618238</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Faculty Table - Container 1">1832d088db4b2010946b64d7489619f0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-17 07:48:37</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>2b9fbd8a53fd4448b59f1c99f693a6e4</sys_id>
+        <sys_metadata>02ab6c7fdb322010946b64d74896193e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Faculty Table - Container 1</sys_name>
+        <sys_package display_value="SRU" source="x_585354_sru">3da8a39bdb322010946b64d748961961</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SRU">3da8a39bdb322010946b64d748961961</sys_scope>
+        <sys_scope_delete display_value="">61ab6ad1b3d745b6949ff2c9dcce9b59</sys_scope_delete>
+        <sys_update_name>sp_container_02ab6c7fdb322010946b64d74896193e</sys_update_name>
+        <sys_update_version display_value="sp_container_02ab6c7fdb322010946b64d74896193e">8eab6c7fdb322010946b64d74896193f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-17 07:48:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

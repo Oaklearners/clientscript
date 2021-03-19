@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>faculty_table</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-16 15:01:23</sys_created_on>
+        <sys_id>06ab6c7fdb322010946b64d74896193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>faculty_table</sys_name>
+        <sys_package display_value="SRU" source="x_585354_sru">3da8a39bdb322010946b64d748961961</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SRU">3da8a39bdb322010946b64d748961961</sys_scope>
+        <sys_update_name>sp_page_06ab6c7fdb322010946b64d74896193b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 15:01:23</sys_updated_on>
+        <title>Faculty Table</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=06ab6c7fdb322010946b64d74896193b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SRU">3da8a39bdb322010946b64d748961961</application>
+        <file_path/>
+        <instance_id>622a81dddb1bd3407d8cf22ebf961930</instance_id>
+        <instance_name>dev64592</instance_name>
+        <name>sp_page_06ab6c7fdb322010946b64d74896193b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><id>faculty_table</id><internal>false</internal><omit_watcher>false</omit_watcher><public>false</public><roles/><seo_script/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-16 15:01:23</sys_created_on><sys_id>06ab6c7fdb322010946b64d74896193b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>faculty_table</sys_name><sys_package display_value="SRU" source="x_585354_sru">3da8a39bdb322010946b64d748961961</sys_package><sys_policy/><sys_scope display_value="SRU">3da8a39bdb322010946b64d748961961</sys_scope><sys_update_name>sp_page_06ab6c7fdb322010946b64d74896193b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-16 15:01:23</sys_updated_on><title>Faculty Table</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=06ab6c7fdb322010946b64d74896193b"/></record_update>]]></payload>
+        <payload_hash>1799271247</payload_hash>
+        <record_name>faculty_table</record_name>
+        <reverted_from/>
+        <source>ad9d2f5fdb322010946b64d7489619e1</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-16 15:01:23</sys_created_on>
+        <sys_id>8aab6c7fdb322010946b64d74896193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1783b8e47c20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 15:01:23</sys_updated_on>
+        <type>Page</type>
+        <update_guid>c2ab6c7f1b3220105f54e8e01db9243d</update_guid>
+        <update_guid_history>c2ab6c7f1b3220105f54e8e01db9243d:1799271247</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="faculty_table">5432d088db4b2010946b64d7489619f5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-17 07:48:37</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>90a14e57d9d14baaa3455c7242fc6f04</sys_id>
+        <sys_metadata>06ab6c7fdb322010946b64d74896193b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>faculty_table</sys_name>
+        <sys_package display_value="SRU" source="x_585354_sru">3da8a39bdb322010946b64d748961961</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SRU">3da8a39bdb322010946b64d748961961</sys_scope>
+        <sys_scope_delete display_value="">61ab6ad1b3d745b6949ff2c9dcce9b59</sys_scope_delete>
+        <sys_update_name>sp_page_06ab6c7fdb322010946b64d74896193b</sys_update_name>
+        <sys_update_version display_value="sp_page_06ab6c7fdb322010946b64d74896193b">8aab6c7fdb322010946b64d74896193d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-17 07:48:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="faculty_designation" table="x_585354_sru_faculty_leave" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>faculty_designation</element>
+            <name>x_585354_sru_faculty_leave</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-16 14:14:09</sys_created_on>
+            <sys_id>42d068b7db322010946b64d748961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>faculty_designation</sys_name>
+            <sys_package display_value="SRU" source="x_585354_sru">3da8a39bdb322010946b64d748961961</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SRU">3da8a39bdb322010946b64d748961961</sys_scope>
+            <sys_update_name>sys_choice_x_585354_sru_faculty_leave_faculty_designation</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-16 14:14:09</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>faculty_designation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asst Prof</label>
+            <language>en</language>
+            <name>x_585354_sru_faculty_leave</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-16 14:14:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ad068b7db322010946b64d748961943</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-16 14:14:09</sys_updated_on>
+            <value>asst prof</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>faculty_designation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Assoc Prof</label>
+            <language>en</language>
+            <name>x_585354_sru_faculty_leave</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-16 14:14:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>82d068b7db322010946b64d748961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-16 14:14:09</sys_updated_on>
+            <value>assoc prof</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>faculty_designation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Professor</label>
+            <language>en</language>
+            <name>x_585354_sru_faculty_leave</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-16 14:14:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>06d068b7db322010946b64d748961946</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-16 14:14:09</sys_updated_on>
+            <value>professor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>faculty_designation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Head of Department</label>
+            <language>en</language>
+            <name>x_585354_sru_faculty_leave</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-16 14:14:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>86d068b7db322010946b64d748961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-16 14:14:09</sys_updated_on>
+            <value>head of department</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

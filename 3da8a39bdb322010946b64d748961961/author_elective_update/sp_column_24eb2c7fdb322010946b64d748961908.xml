@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <size>6</size>
+        <size_lg/>
+        <size_sm>1</size_sm>
+        <size_xs>1</size_xs>
+        <sp_row display_value="1">20eb2c7fdb322010946b64d748961906</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-16 15:02:22</sys_created_on>
+        <sys_id>24eb2c7fdb322010946b64d748961908</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="SRU" source="x_585354_sru">3da8a39bdb322010946b64d748961961</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SRU">3da8a39bdb322010946b64d748961961</sys_scope>
+        <sys_update_name>sp_column_24eb2c7fdb322010946b64d748961908</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 15:04:17</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SRU">3da8a39bdb322010946b64d748961961</application>
+        <file_path/>
+        <instance_id>622a81dddb1bd3407d8cf22ebf961930</instance_id>
+        <instance_name>dev64592</instance_name>
+        <name>sp_column_24eb2c7fdb322010946b64d748961908</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><size>6</size><size_lg/><size_sm>1</size_sm><size_xs>1</size_xs><sp_row display_value="1">20eb2c7fdb322010946b64d748961906</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-16 15:02:22</sys_created_on><sys_id>24eb2c7fdb322010946b64d748961908</sys_id><sys_mod_count>1</sys_mod_count><sys_name>1</sys_name><sys_package display_value="SRU" source="x_585354_sru">3da8a39bdb322010946b64d748961961</sys_package><sys_policy/><sys_scope display_value="SRU">3da8a39bdb322010946b64d748961961</sys_scope><sys_update_name>sp_column_24eb2c7fdb322010946b64d748961908</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-16 15:04:17</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>-399210902</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>ad9d2f5fdb322010946b64d7489619e1</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-16 15:04:17</sys_created_on>
+        <sys_id>a45c6cbfdb322010946b64d748961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1783b90edd40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 15:04:17</sys_updated_on>
+        <type>Column</type>
+        <update_guid>ec5c6cbf8c322010798bd1aa666e8603</update_guid>
+        <update_guid_history>ec5c6cbf8c322010798bd1aa666e8603:-399210902,e8eb68bf65322010d52f2fbd41d4c4ee:-1665513021</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">1432d088db4b2010946b64d7489619df</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-17 07:48:36</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>bc5c4155102e430d9adb15bd5cd4aa29</sys_id>
+        <sys_metadata>24eb2c7fdb322010946b64d748961908</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="SRU" source="x_585354_sru">3da8a39bdb322010946b64d748961961</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SRU">3da8a39bdb322010946b64d748961961</sys_scope>
+        <sys_scope_delete display_value="">61ab6ad1b3d745b6949ff2c9dcce9b59</sys_scope_delete>
+        <sys_update_name>sp_column_24eb2c7fdb322010946b64d748961908</sys_update_name>
+        <sys_update_version display_value="sp_column_24eb2c7fdb322010946b64d748961908">a45c6cbfdb322010946b64d748961904</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-17 07:48:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">30f4957bdbb22010946b64d748961987</sp_column>
+        <sp_widget display_value="Login">6506d341cb33020000f8d856634c9cdc</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-16 18:05:14</sys_created_on>
+        <sys_id>9bb5d5b7dbb22010946b64d7489619bf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SRU" source="x_585354_sru">3da8a39bdb322010946b64d748961961</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SRU">3da8a39bdb322010946b64d748961961</sys_scope>
+        <sys_update_name>sp_instance_9bb5d5b7dbb22010946b64d7489619bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 18:06:36</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"show_panel": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"use_advanced": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=9bb5d5b7dbb22010946b64d7489619bf"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SRU">3da8a39bdb322010946b64d748961961</application>
+        <file_path/>
+        <instance_id>622a81dddb1bd3407d8cf22ebf961930</instance_id>
+        <instance_name>dev64592</instance_name>
+        <name>sp_instance_9bb5d5b7dbb22010946b64d7489619bf</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;30f4957bdbb22010946b64d748961987&lt;/sp_column&gt;&lt;sp_widget display_value="Login"&gt;6506d341cb33020000f8d856634c9cdc&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-03-16 18:05:14&lt;/sys_created_on&gt;&lt;sys_id&gt;9bb5d5b7dbb22010946b64d7489619bf&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="SRU" source="x_585354_sru"&gt;3da8a39bdb322010946b64d748961961&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SRU"&gt;3da8a39bdb322010946b64d748961961&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_9bb5d5b7dbb22010946b64d7489619bf&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-16 18:06:36&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"show_panel": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"use_advanced": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=9bb5d5b7dbb22010946b64d7489619bf"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>565356785</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>ad9d2f5fdb322010946b64d7489619e1</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-16 18:06:36</sys_created_on>
+        <sys_id>d70611bbdbb22010946b64d7489619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1783c37db4a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 18:06:36</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>130611bb63b22010d6fd2c8d8e4656aa</update_guid>
+        <update_guid_history>130611bb63b22010d6fd2c8d8e4656aa:565356785,e4f5593bc5b2201098a27139b839f4fc:1332292195,dbb511bb5fb22010abcce4b5ac02a64e:-1469858338</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">683611bbdbb22010946b64d7489619c8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-16 18:07:15</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>14f9ccf2a7a542b89a9d9bdd793a8771</sys_id>
+        <sys_metadata>9bb5d5b7dbb22010946b64d7489619bf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SRU" source="x_585354_sru">3da8a39bdb322010946b64d748961961</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SRU">3da8a39bdb322010946b64d748961961</sys_scope>
+        <sys_scope_delete display_value="">61ab6ad1b3d745b6949ff2c9dcce9b59</sys_scope_delete>
+        <sys_update_name>sp_instance_9bb5d5b7dbb22010946b64d7489619bf</sys_update_name>
+        <sys_update_version display_value="sp_instance_9bb5d5b7dbb22010946b64d7489619bf">d70611bbdbb22010946b64d7489619aa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 18:07:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

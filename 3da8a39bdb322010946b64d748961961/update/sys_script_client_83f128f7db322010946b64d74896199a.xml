@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>to_date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>No of Days</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+	if(!g_form.getValue('from_date'))
+		{
+			alert("first you select from date");
+			g_form.clearValue('to_date');
+			
+		}
+	else{
+		var sd = new Date(g_form.getValue('from_date'));
+			
+	
+		var ed=new Date(g_form.getValue('to_date'));
+		var count=0;
+                while(sd.getTime()<=ed.getTime())
+                {
+					count++;
+					sd.setDate(sd.getDate()+1);
+                    
+                }
+	
+		g_form.setValue('no_of_days',count);
+		}
+	
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-16 14:20:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>83f128f7db322010946b64d74896199a</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>No of Days</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SRU" source="x_585354_sru">3da8a39bdb322010946b64d748961961</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SRU">3da8a39bdb322010946b64d748961961</sys_scope>
+        <sys_update_name>sys_script_client_83f128f7db322010946b64d74896199a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 14:31:11</sys_updated_on>
+        <table>x_585354_sru_faculty_leave</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
